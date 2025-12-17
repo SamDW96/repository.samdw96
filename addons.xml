@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.samscollectionmanager"
        name="Sam's Collection Manager"
-       version="1.1.1"
+       version="1.1.2"
        provider-name="SamDW96">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -24,7 +24,7 @@
 </addon>
 <addon id="plugin.video.samscollectionmanager"
        name="Sam's Collection Manager"
-       version="1.1.2"
+       version="1.1.4"
        provider-name="SamDW96">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -35,11 +35,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Manage TMDbHelper collections via separate JSON files</summary>
-    <description lang="en">
-      Reads individual JSON collection files (one per collection) from addon_data,
-      caches them for speed (and prunes deleted files), and displays folders with
-      custom plot, thumb, fanart, clearlogo—and full TMDb Helper integration.
-    </description>
+    <description lang="en">A fast, JSON-based collection manager for TMDbHelper with custom artwork support.</description>
     <platform>all</platform>
     <license>GPL-2.0-or-later</license>
   </extension>
